@@ -7,7 +7,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/pizza.png",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app", 
+    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
     title: "Pizza Order App",
@@ -15,7 +15,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/pizza.png",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app", 
+    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
     title: "Pizza Order App",
@@ -23,7 +23,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/pizza.png",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app", 
+    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
     title: "Task Manager",
@@ -35,44 +35,51 @@ const projects = [
   },
 ];
 const Projects = () => {
-  return <section className="max-w-5xl mx-auto px-4 py-12">
-    <h2 className="text-4xl font-bol mb-10 text-center">Projects</h2>
-    <div className="grid md:grid-cols-2 gap-8">
-        {
-            projects.map((project,index)=>(
-                <div key={index}
-                className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 hover:scale-[1.02] transition-transform"
+  return (
+    <section className="max-w-5xl mx-auto px-4 py-12">
+      <h2 className="text-4xl font-bol mb-10 text-center">Projects</h2>
+      <div className="grid md:grid-cols-2 gap-8">
+        {projects.map((project, index) => (
+          <div
+            key={index}
+            className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 hover:scale-[1.02] transition-transform"
+          >
+            <Image
+              src={project.image}
+              alt={project.title}
+              width={800}
+              height={400}
+              className="w-full h-120 object-cover"
+            />
+            <div className="p-5">
+              <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
+              <p className="text-sm text-gray-700 mb-4">
+                {project.description}
+              </p>
+            </div>
+            <div className="flex flex-wrap gap-2 text-sm mb-4">
+              {project.tech.map((tech, i) => (
+                <span
+                  key={i}
+                  className="bg-blue-100 text-blue-700 px-2 py-1 rounded-full"
                 >
-                    <Image
-                    src={project.image}
-                    alt={project.title}
-                    width={800}
-                    height={400}
-
-                    />
-                    <div>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
-                    </div>
-                    <div>
-                        {
-                            project.tech.map((tech,i)=>(
-                                <span key={i}>
-                                    {tech}
-                                </span>
-                            ))
-                        }
-                    </div>
-                    <a href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >View Project</a>
-                </div>
-                
-            ))
-        }
-    </div>
-  </section>;
+                  {tech}
+                </span>
+              ))}
+            </div>
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded transition ml-2"
+            >
+              View Project
+            </a>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
 };
 
 export default Projects;
