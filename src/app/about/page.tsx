@@ -29,7 +29,7 @@ export default function AboutPage() {
         <h3 className="text-xl font-semibold mb-2">Tech Stack</h3>
         <ul className="flex flex-wrap gap-2 text-sm text-white">
           <li className="bg-blue-600 px-3 py-1 rounded">React</li>
-          <li className="bg-green-600 px-3 py-1 rounded">Node.js</li>
+          <li className="bg-green-600 px-3 py-1 rounded ">Node.js</li>
           <li className="bg-yellow-600 px-3 py-1 rounded">MongoDB</li>
           <li className="bg-purple-600 px-3 py-1 rounded">Tailwind CSS</li>
           <li className="bg-pink-600 px-3 py-1 rounded">PostgreSQL</li>

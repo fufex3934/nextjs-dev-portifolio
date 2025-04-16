@@ -6,18 +6,18 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white dark:bg-black py-6 mt-10">
       <div className="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
         
-        {/* Left */}
-        <p className="text-sm">&copy; {new Date().getFullYear()} Your Name. All rights reserved.</p>
+      
+        <p className="text-sm">&copy; {new Date().getFullYear()} Fufa wakgari. All rights reserved.</p>
         
-        {/* Social Icons */}
+       
         <div className="flex space-x-4 text-xl">
-          <Link href="https://github.com/yourusername" target="_blank" className="hover:text-blue-400 transition">
+          <Link href="https://github.com/fufex3934" target="_blank" className="hover:text-blue-400 transition">
             <FaGithub />
           </Link>
-          <Link href="https://linkedin.com/in/yourusername" target="_blank" className="hover:text-blue-400 transition">
+          <Link href="www.linkedin.com/in/fufa-wakgari-85b412228" target="_blank" className="hover:text-blue-400 transition">
             <FaLinkedin />
           </Link>
-          <Link href="https://twitter.com/yourusername" target="_blank" className="hover:text-blue-400 transition">
+          <Link href="https://x.com/home" target="_blank" className="hover:text-blue-400 transition">
             <FaTwitter />
           </Link>
         </div>

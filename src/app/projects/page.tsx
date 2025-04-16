@@ -10,27 +10,27 @@ const projects = [
     link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
-    title: "Pizza Order App",
+    title: "Burger Order App",
     description:
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
-    image: "/pizza.png",
+    image: "/burger.webp",
     link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
-    title: "Pizza Order App",
+    title: "Sandwich Order App",
     description:
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
-    image: "/pizza.png",
+    image: "/sandwich.webp",
     link: "https://www.freepik.com/free-photos-vectors/pizza-app",
   },
   {
-    title: "Task Manager",
+    title: "Food Delivery",
     description:
       "A productivity app to create, track, and organize your tasks with a sleek UI and persistent storage.",
     tech: ["Next.js", "MongoDB", "Zustand"],
-    image: "/task.avif",
+    image: "/fooddelivery.webp",
     link: "https://pngtree.com/so/task-management",
   },
 ];
