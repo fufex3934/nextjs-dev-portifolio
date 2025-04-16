@@ -19,7 +19,7 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold mb-4">
           About <span className="text-blue-400 ">Me</span>
         </h2>
-        <p className="text-gray-700  mb-4">
+        <p className="text-gray-700 mb-4">
           I&apos;m a passionate software developer who loves building clean and scalable web applications.
           I specialize in full-stack development using technologies like React, Node.js, and MongoDB.
           I enjoy problem-solving, learning new tools, and turning creative ideas into real-world solutions.
