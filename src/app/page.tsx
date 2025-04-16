@@ -8,7 +8,7 @@ export default function HomePage() {
     <section className="flex flex-col-reverse lg:flex-row items-center justify-between max-w-6xl mx-auto px-6 py-12">
       <div className="flex-1 text-center lg:text-left">
         <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
-          Hi, I'm <span className="text-blue-400 ">Fufa</span>
+          Hi, I am  <span className="text-blue-400 ">Fufa</span>
         </h1>
         <p className="text-lg text-gray-600 mb-6">
           A passionate full-stack developer who loves building clean, efficient,
