@@ -7,7 +7,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/pizza.png",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
+    link: "https://github.com/fufex3934",
   },
   {
     title: "Burger Order App",
@@ -15,7 +15,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/burger.webp",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
+    link: "https://github.com/fufex3934",
   },
   {
     title: "Sandwich Order App",
@@ -23,7 +23,7 @@ const projects = [
       "A full-stack pizza ordering system with dynamic topping selection, role-based access control, and order tracking.",
     tech: ["React", "Node.js", "PostgreSQL", "Tailwind", "CASL"],
     image: "/sandwich.webp",
-    link: "https://www.freepik.com/free-photos-vectors/pizza-app",
+    link: "https://github.com/fufex3934",
   },
   {
     title: "Food Delivery",

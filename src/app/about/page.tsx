@@ -6,7 +6,6 @@ export default function AboutPage() {
   return (
     <section className="max-w-5xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
       
-      
       <div className="w-48 h-48 relative rounded-full overflow-hidden border-4 border-blue-400 shadow-lg">
         <Image
           src="/favicon.png"
@@ -16,13 +15,12 @@ export default function AboutPage() {
         />
       </div>
 
-    
       <div className="flex-1 text-center md:text-left">
         <h2 className="text-3xl font-bold mb-4">
           About <span className="text-blue-400 ">Me</span>
         </h2>
         <p className="text-gray-700  mb-4">
-          I'm a passionate software developer who loves building clean and scalable web applications.
+          I&apos;m a passionate software developer who loves building clean and scalable web applications.
           I specialize in full-stack development using technologies like React, Node.js, and MongoDB.
           I enjoy problem-solving, learning new tools, and turning creative ideas into real-world solutions.
         </p>
